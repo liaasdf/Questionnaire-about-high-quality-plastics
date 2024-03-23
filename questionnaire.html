@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Questionnaire about high-quality plastic reuse </title>
+    <title>Questionnaire about high-quality plastic reuse</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -54,9 +54,29 @@
         }
 
         .logo {
-            width: 567px; /* Adjust size as needed */
+            width: 567px; /* Original size */
             height: auto;
             margin-bottom: 20px; /* Add space below logo */
+        }
+
+        /* Mobile Optimization */
+        @media only screen and (max-width: 600px) {
+            .container {
+                max-width: 90%; /* Adjust as needed */
+            }
+
+            .logo {
+                width: 100%; /* Make it full width on mobile */
+                max-width: 300px; /* Set maximum width on mobile */
+            }
+
+            h1 {
+                font-size: 20px; /* Reduce font size for smaller screens */
+            }
+
+            p {
+                font-size: 16px; /* Reduce font size for smaller screens */
+            }
         }
     </style>
 </head>
