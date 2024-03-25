@@ -91,10 +91,10 @@
     <script>
         function redirectToRandomQuestionnaire() {
             var questionnaires = [
-                "https://www.survey-xact.dk/LinkCollector?key=CN4AZYLLJ612",
-                "https://www.survey-xact.dk/LinkCollector?key=5YZ8S178U235",
-                "https://www.survey-xact.dk/LinkCollector?key=MDR7S554LNCJ",
-                "https://www.survey-xact.dk/LinkCollector?key=HDRQJKE7UPC2"
+                "https://www.survey-xact.dk/LinkCollector?key=L3J25N5RJK96", /* Control Questionnaire 1.0 */
+                "https://www.survey-xact.dk/LinkCollector?key=78J676E3S1C5", /* Control Questionnaire 2.0 */
+                "https://www.survey-xact.dk/LinkCollector?key=FXU1E57LU236", /* Treatment Questionnaire 1.0 */
+                "https://www.survey-xact.dk/LinkCollector?key=MNJ271E4S21J", /* Treatment Questionnaire 2.0 */
             ];
             var randomIndex = Math.floor(Math.random() * questionnaires.length);
             window.location.href = questionnaires[randomIndex];
